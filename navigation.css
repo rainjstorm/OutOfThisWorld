@@ -1,0 +1,9 @@
+body {
+  background-image: url("https://www.sciencealert.com/images/2020-06/processed/solar-system_1024.jpg");
+  background-color: #cccccc;
+ }
+
+ @keyframes mymove {
+  from {background-color: red;}
+  to {background-color: blue;}
+}
