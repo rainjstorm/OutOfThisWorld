@@ -1,9 +1,11 @@
 body {
-  background-image: url("https://www.sciencealert.com/images/2020-06/processed/solar-system_1024.jpg");
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c51b56ee-bc40-4ca9-b146-85fc5e83f37d/dd6huxp-3723f892-01cb-422b-b819-7b4adf74be8f.png/v1/fill/w_1024,h_615,q_80,strp/_concept_art__space_background_by_thebipedalvisitor_dd6huxp-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD02MTUiLCJwYXRoIjoiXC9mXC9jNTFiNTZlZS1iYzQwLTRjYTktYjE0Ni04NWZjNWU4M2YzN2RcL2RkNmh1eHAtMzcyM2Y4OTItMDFjYi00MjJiLWI4MTktN2I0YWRmNzRiZThmLnBuZyIsIndpZHRoIjoiPD0xMDI0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.5D1FAk1vQBgSq40EaVpqJNp0_pIr1V1y7f1mEV1KvvE");
   background-color: #cccccc;
  }
 
- @keyframes mymove {
-  from {background-color: red;}
-  to {background-color: blue;}
-}
+ .planet {
+   width: 100px;
+   height: 100px;
+ }
+
+ 
