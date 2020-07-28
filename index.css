@@ -33,3 +33,71 @@ em, strong {
   margin: .2rem;
   font-size: 1rem;
 }
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: 0.6s;
+	z-index: 100000;
+
+}
+
+header .logo {
+	position: relative;
+	font-weight: 700;
+	color: #fff;
+	text-decoration: none;
+	font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition: 0.6s;
+	font-family:;
+}
+
+header ul {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header ul li {
+	position: relative;
+	list-style: none;
+}
+
+
+header ul li a {
+	position: relative;
+	margin: 0 15px;
+	text-decoration: none;
+	color: #fff;
+	letter-spacing: 2px;
+	font-weight: 500px;
+	transition: 0.5s;
+}
+
+header.sticky {
+	padding: 5px 100px;
+	background: black;
+}
+
+#solarSystem {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+
+
+
+
+
+
