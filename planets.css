@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #ced4da;
+    background-color: #e9ecef;
     color: #011a32;
     font: 16px/1.25;
 }
@@ -26,6 +26,10 @@ body {
     padding: 1em;
     width: 100%;
     letter-spacing: 2em;
+}
+
+.heading {
+    text-align: center;
 }
 
 h1 {
