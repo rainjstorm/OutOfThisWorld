@@ -1,14 +1,14 @@
 window.addEventListener('load', function(){
 	
-	setTimeout(function(){
-		//after 3 seconds => popup with site's details
-		var popUp = document.querySelector("popup");
-		
-	}, 2000)
-})
+	setTimeout(myFunction, 3000)
+ })
+ 
+function myFunction() {
+  var popup = document.getElementById("popup");
+  popup.classList.toggle("show");
+}
 
-
-window.addEventListener('scroll', function(){
+ window.addEventListener('scroll', function(){
 	var header = document.querySelector('header');
 	header.classList.toggle('sticky', window.scrollY > 0 )
 
@@ -41,4 +41,4 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
-}
+} 
