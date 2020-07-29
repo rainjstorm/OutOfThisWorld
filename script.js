@@ -41,4 +41,11 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
+<<<<<<< HEAD
 } 
+=======
+}
+
+//css animation for listings (bottom)//
+
+>>>>>>> 7039cdfb595272dc4d7ecdaa32e76b0d116d112c

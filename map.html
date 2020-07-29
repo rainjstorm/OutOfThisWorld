@@ -135,7 +135,19 @@
 			<circle cx="40" cy="25" r=".5" fill="white" stroke="none"/>
 			<circle cx="95" cy="10" r=".5" fill="white" stroke="none"/>
 			<circle cx="70" cy="30" r=".5" fill="white" stroke="none"/>
-			<circle cx="20" cy="55" r=".5" fill="white" stroke="none"/>
+			<circle cx="35" cy="49" r=".5" fill="white" stroke="none"/>
+			<circle cx="84" cy="52" r=".5" fill="white" stroke="none"/>
+			<circle cx="45" cy="26" r=".5" fill="white" stroke="none"/>
+			<circle cx="34" cy="13" r=".5" fill="white" stroke="none"/>
+			<circle cx="93" cy="42" r=".5" fill="white" stroke="none"/>
+			<circle cx="28" cy="59" r=".5" fill="white" stroke="none"/>
+			<circle cx="15" cy="28" r=".5" fill="white" stroke="none"/>
+			<circle cx="29" cy="65" r=".5" fill="white" stroke="none"/>
+			<circle cx="18" cy="37" r=".5" fill="white" stroke="none"/>
+			<circle cx="41" cy="43" r=".5" fill="white" stroke="none"/>
+			<circle cx="23" cy="10" r=".5" fill="white" stroke="none"/>
+			<circle cx="34" cy="78" r=".5" fill="white" stroke="none"/>
+			<circle cx="43" cy="12" r=".5" fill="white" stroke="none"/>
 		</svg>
 	</div>
 	<div id="earth">
@@ -298,13 +310,13 @@
 </div>
 
 	<script type="text/javascript">
-		let planets = ["earth","saturn","venus","mercury","neptune","pluto","jupiter","mars","blackhole"];
+		let planets= ["earth","saturn","venus","mercury","neptune","pluto","jupiter","mars","blackhole"];
 		planets.forEach(function(planet) {
 			let elements = document.querySelectorAll(`#${planet} svg *`); // [<g>, <path>]
 
 			for (let i = 0; i < elements.length; i++) {
 				elements[i].addEventListener("click", function() {
-					location.assign(`planets/${planet}.html`);
+					location.assign(`${planet}.html`);
 				});
 			}
 		});
