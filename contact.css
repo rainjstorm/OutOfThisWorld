@@ -1,7 +1,10 @@
 *
  {
-     background-image: url(images/bg5.jpg);
-     color: white;
+     color: #343a40;
+ }
+
+ body {
+    background-image: url(images/bg5.jpg);
  }
 
 .contact-info {
@@ -11,7 +14,6 @@
     padding: 0;
     list-style: none;
     margin-top: 100px;
-    background-color: aliceblue;
 }
 
 h1,
@@ -41,11 +43,21 @@ h1 {
     margin-left: 30px;
     margin-right: 30px;
     line-height: 35px;
+
+    background-color: #f8f9fa;
+    margin-bottom: 30px;
 }
 
-.images {
+.images1 {
     width: 375px;
     position: absolute;
     right: 270px;
     bottom: 250px;
+}
+
+.images4 {
+    width: 375px;
+    position: absolute;
+    right: 225px;
+    top: 1830px;
 }
