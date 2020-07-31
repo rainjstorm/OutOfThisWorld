@@ -19,3 +19,71 @@
     letter-spacing: 10px;
 }
 
+/*header*/
+
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: 0.6s;
+  z-index: 100000;
+  background-color: #0e1114;
+
+}
+
+header .logo {
+	position:relative;
+	transition: 0.6s;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background-color: pink;
+  color: #fff;
+  text-align:center;
+	word-wrap: break-word;
+  letter-spacing: 1px;
+  
+}
+
+.logo-text {
+	margin-top: 10px;
+	color: #fff;
+	font-size: 15px;
+  letter-spacing: 1px;
+  font-family: 'Pacifico', cursive;
+}
+
+
+header ul {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header ul li {
+	position: relative;
+	list-style: none;
+}
+
+
+header ul li a {
+	position: relative;
+	margin: 0 15px;
+	text-decoration: none;
+	color: #fff;
+	letter-spacing: 2px;
+	font-weight: 500px;
+	transition: 0.5s;
+}
+
+header.sticky {
+	padding: 5px 100px;
+	background: white;
+}
+	
