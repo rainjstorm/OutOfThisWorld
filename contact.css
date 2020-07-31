@@ -55,11 +55,25 @@ h1 {
     bottom: 205px;
 }
 
+.images2 {
+  width: 375px;
+  position: absolute;
+  right: 250px;
+  top: 700px;
+}
+
+.images3 {
+  width: 375px;
+  position: absolute;
+  right: 250px;
+  top: 1255px;
+}
+
 .images4 {
     width: 375px;
     position: absolute;
     right: 225px;
-    top: 1875px;
+    top: 1750px;
 }
 
 /*header*/
