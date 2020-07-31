@@ -1,0 +1,44 @@
+
+.form-body {
+	background-image: url(images/bg2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#myform {
+	position: relative;
+	top: 200px;
+	display:;
+	left: 400px;
+	width: 450px;
+	height: 250px;
+	background-image: url(images/bg4.jpg);
+}
+
+#prompt-id {
+	position: fixed;
+	top: 230px;
+	left: 430px;
+	font-size: 20px;
+	padding-top: 20px;
+	color: white;
+}
+
+#email-buyer {
+	color: white;
+	
+}
+
+.send-request {
+	position: fixed;
+	top: 350px;
+	left: 480px;
+}
+
+.open-button {
+	
+}
+
+.form-nav {
+	left: 300px;
+}
